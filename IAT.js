@@ -28,18 +28,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+    		{image: 'flower-white.jpg'},
+                {image: 'flower-purple.jpg'},
+                {image: 'flower-red.jpg'},
+		{image: 'flower-green.jpg'},
+            	{image: 'flower-pink.jpg'},
+            	{image: 'flower-yellow.jpg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://toni2110.github.io/IAT-Simple/'
 		} 
 	});
 });
